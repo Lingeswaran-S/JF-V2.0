@@ -1,0 +1,33 @@
+<div class="row container ">
+        <div
+          class="  border pl-3 pr-3 pb-3 mt-1 rounded  "
+          style={{ backgroundColor: "#dee3e1" }}
+        >
+          <Link to="/jobs">
+            <button class="btn btn-success mt-3 shadow-lg p-3  " style={sty}>
+              <strong class="text-white"> Jobs</strong>
+            </button>
+          </Link>
+          <br></br>
+
+       
+          <Link to="/eread">
+            <button class="btn btn-success mt-3 shadow-lg p-3  " style={sty}>
+              <strong class="text-white">Events</strong>
+            </button>
+          </Link>
+          <br></br>
+          <Link to="/qas">
+            <button class="btn btn-success mt-3 shadow-lg p-3  " style={sty}>
+              <strong class="text-white">Interview Q/A</strong>
+            </button>
+          </Link>
+          <br></br>
+          <Link to="/jobs">
+            <button class="btn btn-info mt-3 shadow-lg p-3  " style={sty}>
+              <strong class="text-white">About us !</strong>
+            </button>
+          </Link>
+        </div>
+        
+      </div>
